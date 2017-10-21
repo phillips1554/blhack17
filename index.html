@@ -7,6 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+	<link href="styles/styles.css" rel="stylesheet" type="text/css" media="all">
 	
 </head>
 
@@ -14,7 +15,8 @@
 
 <body>
 
-	<div id = "generalform" class="form">
+	<div id = "formcontainer">
+		<h4>General info</h4>
 		City image (enter a location):<br>
 		<input id="cityimage" type="text" name="cityimage" value=""><br>
 		City name:<br>
@@ -22,6 +24,7 @@
 		Text input (specific to city):<br>
 		<input id="textinput" type="text" name="textinput" value=""><br><br>
 
+		<h4>Reviews</h4>
 		Review 1:<br>
 		<input id="reviewone" type="text" name="reviewone" value=""><br>
 		Review 2:<br>
@@ -29,7 +32,20 @@
 
 		<input id="submitbutton" type="submit" value="Submit">
 	</div>
+	<br>
+	<br>
+<p>An example demonstrating the use of the <code>&lt;input type="color"&gt;</code>
+   control.</p>
 
+<label for="colorWell">Color:</label>
+<input type="color" value="#ff0000" id="colorWell">
+
+<p>Watch the paragraph colors change when you adjust the color picker.
+   As you make changes in the color picker, the first paragraph's
+   color changes, as a preview (this uses the <code>input</code>
+   event). When you close the color picker, the <code>change</code>
+   event fires, and we detect that to change every paragraph to
+   the selected color.</p>
 
 
 
